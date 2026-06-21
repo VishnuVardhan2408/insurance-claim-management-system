@@ -1,26 +1,57 @@
 # Insurance Claim Management System
 
-A Python project to manage customers, insurance policies and insurance claims.
+## Project Overview
 
-Features
+Insurance Claim Management System is a Python-based application that helps manage customers, insurance policies and insurance claims.
 
-- Add Customer
-- Add Policy
-- Submit Claim
-- Dashboard Report
-- Generate Chart
+The application allows users to register customers, create policies, process insurance claims, generate dashboard reports and visualize claim statistics using charts.
 
-Technologies Used
+---
 
-- Python
-- CSV
-- Matplotlib
+## Features
 
-Project Files
+* Add Customer Details
+* Add Insurance Policies
+* Submit Insurance Claims
+* Auto Approve or Under Review Claims
+* Generate Dashboard Reports
+* Visualize Claim Data using Charts
 
-- main.py
-- customers.py
-- policies.py
-- claims.py
-- reports.py
-- charts.py
+---
+
+## Technologies Used
+
+* Python
+* CSV File Handling
+* Matplotlib
+* Datetime Module
+* Git
+* GitHub
+
+---
+
+## Project Structure
+
+insurance-claim-management-system
+
+* main.py
+* customers.py
+* policies.py
+* claims.py
+* reports.py
+* charts.py
+
+data
+
+* customers.csv
+* policies.csv
+* claims.csv
+
+---
+
+## Future Enhancements
+
+* Database Integration
+* Login Authentication
+* Email Notifications
+* Web Application Version

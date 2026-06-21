@@ -55,14 +55,20 @@ def generate_report():
 
         pass
 
-    print("\n===== DASHBOARD REPORT =====")
+    print("\n====================================")
 
-    print("Total Customers:", total_customers)
+    print("Insurance Dashboard Report")
 
-    print("Total Policies:", total_policies)
+    print("====================================")
 
-    print("Total Claims:", total_claims)
+    print(f"Total Customers     : {total_customers}")
 
-    print("Approved Claims:", approved_claims)
+    print(f"Total Policies      : {total_policies}")
 
-    print("Under Review Claims:", under_review_claims)
+    print(f"Total Claims        : {total_claims}")
+
+    print(f"Approved Claims     : {approved_claims}")
+
+    print(f"Under Review Claims : {under_review_claims}")
+
+    print("====================================")

@@ -36,12 +36,14 @@ def generate_chart():
 
     values = [approved, under_review]
 
+    plt.figure(figsize=(7,5))
+
     plt.bar(labels, values)
 
-    plt.title("Insurance Claim Status")
+    plt.title("Insurance Claim Status Report")
 
-    plt.xlabel("Status")
+    plt.xlabel("Claim Status")
 
-    plt.ylabel("Count")
+    plt.ylabel("Number of Claims")
 
     plt.show()
