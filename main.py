@@ -1,4 +1,6 @@
 # Main file to run the Insurance Claim Management System
+# Main file to run the Insurance Claim Management System
+
 from customers import add_customer
 from policies import add_policy
 from claims import add_claim
@@ -7,14 +9,25 @@ from charts import generate_chart
 
 while True:
 
-    print("\n1. Add Customer")
+    print("\n==============================")
+
+    print("Insurance Claim Management System")
+
+    print("==============================")
+
+    print("1. Add Customer")
+
     print("2. Add Policy")
+
     print("3. Submit Claim")
+
     print("4. Dashboard Report")
+
     print("5. Generate Chart")
+
     print("6. Exit")
 
-    choice = input("Enter your choice: ")
+    choice = input("\nEnter your choice: ")
 
     if choice == "1":
 
@@ -38,10 +51,10 @@ while True:
 
     elif choice == "6":
 
-        print("Thank You")
+        print("\nThank You")
 
         break
 
     else:
 
-        print("Invalid Choice")
+        print("\nInvalid Choice. Please try again.")

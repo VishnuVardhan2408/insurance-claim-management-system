@@ -4,9 +4,13 @@ import csv
 def generate_report():
 
     total_customers = 0
+
     total_policies = 0
+
     total_claims = 0
+
     approved_claims = 0
+
     under_review_claims = 0
 
     try:

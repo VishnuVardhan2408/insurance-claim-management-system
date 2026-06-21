@@ -1,2 +1,4 @@
 CLM001,P001,25000,Hospiltalization,Approved
 CLM002,P001,8000,Accident,Approved
+CLM001,P001,25000,Hospitalization,Approved,22-06-2026
+CLM002,P001,8000,Accident,Approved,22-06-2026

@@ -1,5 +1,6 @@
 # Claim processing functions
 import csv
+from datetime import datetime
 
 def add_claim():
 
@@ -19,6 +20,8 @@ def add_claim():
 
         status = "Under Review"
 
+    date = datetime.now().strftime("%d-%m-%Y")
+
     with open("data/claims.csv", "a", newline="") as file:
 
         writer = csv.writer(file)
@@ -28,9 +31,10 @@ def add_claim():
             policy_id,
             claim_amount,
             reason,
-            status
+            status,
+            date
         ])
 
-    print("Claim submitted successfully")
+    print("\nClaim submitted successfully")
 
     print("Claim Status:", status)
